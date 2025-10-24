@@ -11,3 +11,7 @@ function increment()
     counter=counter+1
     countEl.innerText=counter
 }
+function save()
+{
+    
+}
