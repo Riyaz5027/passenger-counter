@@ -15,4 +15,6 @@ function save()
 {
     document.getElementById("ent").textContent+=counter+" - "
     console.log(counter)
+    counter=0
+    document.getElementById("count-el").textContent=counter;
 }
