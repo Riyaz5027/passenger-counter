@@ -4,14 +4,15 @@
 
 
 let counter=0
-let countEl=document.getElementById("count-el")
-console.log(countEl)
+//let countEl=document.getElementById("count-el")
+//console.log(countEl)
 function increment()
 {
     counter=counter+1
-    countEl.innerText=counter
+    document.getElementById("count-el").innerText=counter;
 }
 function save()
 {
-    
+    document.getElementById("ent").textContent+=counter+" - "
+    console.log(counter)
 }
