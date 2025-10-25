@@ -17,13 +17,4 @@ function save()
     console.log(counter)
     counter=0
     document.getElementById("count-el").textContent=counter;
-}
-
-/* let age=24
-if(age<21)
-{
-    console.log("You can not enter the club")
-}
-else{
-    console.log("Welcome!")
-} */
+} 
